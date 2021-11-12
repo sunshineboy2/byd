@@ -169,7 +169,7 @@
 #送豆得豆
 45 1,12 * * * node /scripts/jd_sendBeans.js >> /scripts/logs/jd_sendBeans.log 2>&1
 #柠檬旺财乐园新手上路版
-*/5 * * * * node /scripts/jd_joyPark.js >> /scripts/logs/jd_joyPark.log 2>&1
+30 * * * * node /scripts/jd_joyPark.js >> /scripts/logs/jd_joyPark.log 2>&1
 #燃动夏季
 12 0,6-23/2 * * * node /scripts/jd_summerMovement.js >> /scripts/logs/jd_summerMovement.log 2>&1
 #愤怒的锦鲤
