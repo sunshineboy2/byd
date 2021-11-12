@@ -78,7 +78,6 @@ if ($.isNode()) {
             if ($.isNode() && allMessage) {
               await notify.sendNotify(`${$.name}`, `${allMessage}`, { url: `https://bean.m.jd.com/beanDetail/index.action?resourceValue=bean` })
             }
-            #发送一次消息置空一次，避免多条累积
             allMessage = '';
         }
     }
