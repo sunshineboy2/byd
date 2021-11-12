@@ -6,7 +6,7 @@ jd_scripts:
   #   resources:
   #     limits:
   #       cpus: '0.2'
-  #       memory: 200M
+  #       memory: 20M
   container_name: jd_scripts
   restart: always
   volumes:
