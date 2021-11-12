@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-lias ll='ls -la'
+alias ll='ls -la'
 #获取配置的自定义参数
 if [ -n "$1" ]; then
   run_cmd=$1
